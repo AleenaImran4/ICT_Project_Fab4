@@ -1,0 +1,103 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+.image{
+    padding: 40px;
+    
+}
+.logo{ 
+    width: 150px;
+    height: 70px;
+    background-color: burlywood;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: url(Pool\ seating\ private\ villa\ kuwait\ Sarah\ Sadeq\ architects.jpg);
+    background-size: 100% 100%;
+}
+
+
+.contact-us
+{
+    display: flex;
+    flex-direction: column  ;
+    background-image: linear-gradient(to left, burlywood , burlywood);
+    justify-content: ceneter;
+    align-items: center;
+}
+
+
+.contact-us h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+}
+.contact-us button {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background: transparent;
+    color: black;
+    background-color: brown;
+    font-size: 0.5s;
+    margin: 20px;
+}
+.contact-us button :hover {
+    background: black;
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid;
+    width: 100%;
+    height: 80vh;
+    background-image: url(iga.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: darken;
+
+}
+.div_1 {
+    font-size: 25px;
+    color: black;
+
+}
+.div_1 h2 {
+    font-size: 25px;
+    color: lightblue;
+}
+.div_1 li a {
+    color: oldlace;
+    transition: 0.5s;
+}
+.div_1 li a:hover {
+    color:brown;
+
+}
+.div4 img {
+    width: 40px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
